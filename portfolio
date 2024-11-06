@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+	<link rel="stylesheet" href="portstyle.css" />
+	<title>Portfolio</title>
+</head>
+
+<body>
+
+	<audio id="myAudio" autoplay loop>
+		<source src="mainaud.mp3" type="audio/mpeg">
+	</audio>
+
+
+	<video autoplay loop muted class="video">
+		<source src="mainvid.mp4" type="video/mp4" />
+	</video>
+	<div class="main">
+		<header>
+			<a href="#" class="logo">Aryan</a>
+
+			<nav>
+				<a href="#" class="active">Home</a>
+				<a href="#">Service</a>
+				<a href="#">Skill</a>
+				<a href="#">Education</a>
+				<a href="#">Experience</a>
+				<a href="#">Contact</a>
+			</nav>
+		</header>
+
+		<div class="main">
+			<section class="home">
+				<div class="home-img">
+					<img src="main.jpg" alt="" />
+				</div>
+
+				<div class="home-content">
+					<h1>Hi,its <span>Aryan</span></h1>
+					<h3 class="typing-text">I'm a <span></span></h3>
+					<p>
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed eos,
+						incidunt reiciendis nihil ut ad doloribus architecto nam non eveniet
+						cupiditate. Cum veniam voluptatibus commodi vitae, explicabo esse
+						eaque quod consectetur quos hic minus animi officia suscipit
+						voluptates facilis nam dolores reiciendis magni et reprehenderit!
+					</p>
+					<div class="social-icons">
+						<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+						<a href="#"><i class="fa-brands fa-github"></i></a>
+						<a href="#"><i class="fa-brands fa-facebook"></i></a>
+						<a href="#"><i class="fa-brands fa-instagram"></i></a>
+					</div>
+					<a href="#" class="btn">Hire me</a>
+				</div>
+
+			</section>
+		</div>
+
+
+</body>
+
+</html>
